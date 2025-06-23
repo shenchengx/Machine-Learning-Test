@@ -21,18 +21,9 @@ matplotlib
 openpyxl
 ```
 
-## Installation
+## Dataset
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd power-prediction-system
-```
-
-2. Install dependencies:
-```bash
-pip install numpy pandas torch scikit-learn matplotlib openpyxl
-```
+https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
 ## Usage
 
