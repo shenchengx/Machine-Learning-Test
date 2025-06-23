@@ -69,7 +69,6 @@ The system expects CSV files with the following columns:
 - Combines CNN feature extraction with Transformer attention
 - CNN layers for local pattern detection
 - Transformer layers for global sequence modeling
-- Best overall performance
 
 ## Output
 
