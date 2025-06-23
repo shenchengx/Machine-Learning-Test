@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # 设置随机种子
-def set_seed(seed=42):
+def set_seed(seed=11):
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
@@ -19,7 +19,7 @@ def set_seed(seed=42):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-set_seed(42)
+set_seed(11)
 
 # 数据预处理类
 class PowerDataProcessor:
@@ -512,7 +512,7 @@ if __name__ == "__main__":
     
     print("电力预测任务开始...")
     
-    # 快速短期预测（90天）
+    # 短期预测（90天）
     print("\n" + "="*50)
     print("短期预测（未来90天）")
     print("="*50)
